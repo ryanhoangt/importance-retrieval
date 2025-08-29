@@ -1,0 +1,10 @@
+{
+    "config": ["configs/bc/libero_retrieval.py"],
+    "task": ["soup_cheese", "mug_mug"],
+    "percent": [5, 1.0, 0.5],
+    "retrieval": [
+        "z-32_obs-2_action-16/is4"
+    ],
+    "cond": ["true"],
+    "seed": [1, 2, 3]
+}

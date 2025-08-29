@@ -1,0 +1,27 @@
+# Core
+numpy<2.0 # Do not upgrade to numpy 2.0 because of legacy benchmark deps.
+tensorflow==2.17.1
+tensorflow_datasets==4.9.7
+tensorflow_graphics == 2021.12.3
+tensorflow_probability==0.25.0
+scikit-learn
+scipy
+jax==0.5.3
+flax==0.10.4
+optax==0.2.4
+distrax==0.1.5
+gymnasium
+ml_collections
+mlcroissant
+
+# dev
+pre-commit
+absl-py
+
+# vis
+matplotlib
+tqdm
+seaborn
+imageio
+tqdm
+wandb
