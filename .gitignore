@@ -1,10 +1,8 @@
 # Custom Ignores
 wandb/
 experiments/
-datasets/
 viz/
 gmflow/
-datasets/
 output/
 /retrieval/
 
