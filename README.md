@@ -28,7 +28,9 @@ We benchmarked some of our implementations against Pytorch versions in robomimic
 First, follow the instructions to install `mujoco210_linux` found [here](https://github.com/openai/mujoco-py)
 
 ```
-sudo apt install libosmesa6-dev libgl1-mesa-glx libglfw3 patchelf
+sudo apt-get update
+sudo apt install libosmesa6-dev libgl1-mesa-glx libglfw3 patchelf # If error use the command below
+sudo apt-get install -y libgl1
 ```
 
 Then, install robosuite, robomimic, and needed dependencies.
